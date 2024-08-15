@@ -44,7 +44,7 @@ const Home = () => {
           >
             <motion.a                                 whileTap={{ scale: 0.90 }}
  className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-red-800 to-red-500 hover:to-red-600 cursor-pointer font-bold"
- href="https://drive.google.com/file/d/1HOk3vg_NeSjj8Kz5hAUOM7wTTjzYWKed/view?usp=sharing" // Update this path to your resume file
+ href="https://drive.google.com/file/d/1jXHNaJ-0szDdpuNn_ITsgSrncjF6ZEK7/view?usp=sharing" // Update this path to your resume file
       download="Yasir_Mukhtar_Resume.pdf"
       target="_blank"
       
