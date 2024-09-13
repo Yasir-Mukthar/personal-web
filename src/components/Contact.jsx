@@ -65,7 +65,7 @@ function Contact() {
     <div
       name="contact"
       id="contact"
-      className="w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white"
+      className="w-full h-screen bg-black p-4 text-white"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
@@ -87,6 +87,7 @@ function Contact() {
               value="Yasir"
               className="hidden"
               name="to_name"
+              readOnly
             />
             <input
               type="text"
@@ -109,7 +110,7 @@ function Contact() {
             <motion.button
               whileTap={{ scale: 0.9 }}
               type="submit"
-              className="text-white text-xl font-bold bg-gradient-to-r from-red-800 to-red-500 hover:to-red-600 px-4 sm:px-8 py-3 my-8 mx-auto flex items-center rounded-md duration-300"
+              className="text-white text-lg font-bold bg-gradient-to-r from-red-800 to-red-500 hover:to-red-600 px-4 sm:px-5 py-2 my-5 mx-auto flex items-center rounded-md duration-300"
             >
               Send
             </motion.button>

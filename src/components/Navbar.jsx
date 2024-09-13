@@ -36,7 +36,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="  z-50 flex justify-between items-center w-full h-20 text-white fixed bg-black px-4">
+    <div className="  z-50 flex justify-between items-center w-full h-20 text-white fixed bg-black px-4 border-b-2 border-gray-300 border-opacity-5">
       <div>
         <motion.h1
          initial={{ opacity: 0,  x: -40 }}
@@ -51,7 +51,7 @@ const Navbar = () => {
           animate={{ opacity: 1, x: 0, y: 0 }}
           transition={{ duration: 0.3, delay: 0.1 * index }}
             key={link.id}
-            className="hover:text-red-600 px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-100 duration-200 md:text-xl lg:px-5"
+            className=" px-4 py-2 hover:text-white hover:rounded cursor-pointer capitalize font-medium text-gray-500 hover:scale-100 duration-200 md:text-xl lg:px-5 hover:bg-yellow-500 "
           >
             <Link smooth={true} duration={500} to={link.url}>{link.text}</Link>
           </motion.li>
@@ -64,7 +64,7 @@ const Navbar = () => {
         {navbarOpen ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
       {navbarOpen && (
-        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500">
+        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-black text-gray-500">
           {links.map((link) => (
             <li
               key={link.id}

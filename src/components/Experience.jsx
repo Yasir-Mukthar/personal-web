@@ -7,6 +7,7 @@ import mongodb from "../assets/mongodbicon.png"
 import nodejs from "../assets/nodejsicon.png"
 import github from "../assets/github.png"
 import tailwind from "../assets/tailwind.png"
+import nextjs from "../assets/next.jfif"
 import { motion } from "framer-motion";
 
 
@@ -52,9 +53,9 @@ const Experience = () => {
         },
         {
             id:7,
-            src:mongodb,
-            title:"MongoDB",
-            style:"hover:shadow-sky-400 border-sky-500"
+            src:nextjs,
+            title:"Next.js",
+            style:"hover:shadow-gray-400 border-gray-500"
         },
         
         
@@ -63,12 +64,17 @@ const Experience = () => {
             src:github,
             title:"GitHub",
             style:"hover:shadow-gray-400 border-gray-500"
+        },{
+            id:9,
+            src:mongodb,
+            title:"MongoDB",
+            style:"hover:shadow-sky-400 border-sky-500"
         }
     ]
 
 
 return (
-    <div name="experience" id='experience' className='bg-gradient-to-b from-gray-800 to-black w-full min-h-screen max-h-full'>
+    <div name="experience" id='experience' className='bg-black w-full min-h-screen max-h-full'>
         <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
             <div>
                 <p className='text-4xl font-bold border-b-4 inline p-2 border-gray-500'>Technology</p>

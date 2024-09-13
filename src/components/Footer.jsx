@@ -4,7 +4,8 @@ import { FaRegCopyright } from 'react-icons/fa6';
 
 const Footer = () => {
   return (
-    <footer className="text-white px-5 py-6 bg-black">
+    <footer className="text-white px-5 py-6 bg-black border-t-2 border-gray-300 border-opacity-5 ">
+
       <div className="text-center">
         <span className="font-semibold">
           Created By{' '}

@@ -14,10 +14,11 @@ function Portfolio() {
             id:1,
             src:auction,
             name:"Real Time Auction Web App",
-            description:`Developed an advanced auction bidding website <span className="bg-black">with</span> real-time bidding and notifications, powered by Socket.IO and Gemini AI chatbot. Features include user registration and login, auction creation with detailed listings, Stripe payment integration, user profile management, and secure authentication.`
+            description:`Developed an advanced auction bidding website with real-time bidding and notifications, powered by Socket.IO and Gemini AI chatbot. Features include user registration and login, auction creation with detailed listings, Stripe payment integration, user profile management, and secure authentication.`
 ,
             demo:"https://youtu.be/vWLnbGh8oV0?si=0XdyBZ39QTqmhVJd",
-            code:"https://github.com/Yasir-Mukthar/Auction-website-MERN-Stack"
+            code:"https://github.com/Yasir-Mukthar/Auction-website-MERN-Stack",
+            btnDesign:"bg-yellow-500"
         },
         {
             id:2,
@@ -25,7 +26,8 @@ function Portfolio() {
             name:"Chat App",
             description:"Created a cool chat app where you can register, log in, and start chatting instantly. It’s got real-time messaging, so conversations flow smoothly, and you can see who’s online at any time. Whether you're catching up with friends or making new connections, everything’s designed for a smooth and fun experience.",
             demo:"https://youtu.be/wCT4iDM-hWY",
-            code:"https://github.com/Yasir-Mukthar/chat-app"
+            code:"https://github.com/Yasir-Mukthar/chat-app",
+
         }
         , {
             id:3,
@@ -47,7 +49,7 @@ function Portfolio() {
     ]
 
 return (
-    <div name="portfolio" id='projects' className='min-h-screen max-h-full  bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-[1350px] md:pb-10'>
+    <div name="portfolio" id='projects' className='min-h-screen max-h-full  bg-gradient-to-b bg-black w-full text-white md:h-[1350px] md:pb-10'>
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
             <div className='pb-8 '>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Projects</p>
@@ -73,9 +75,9 @@ return (
                                     <h2 className='text-xl font-bold'>{name}</h2>
                                     <p className='py-3'>{description}</p>
                                 </div>
-                                <div className='flex items-center justify-between px-4 py-2'>
-                                    <a href={demo} className='hover:bg-gradient-to-r hover:from-red-800 hover:to-red-400   text-white font-bold py-2 px-4 rounded-md bg-black'>Demo</a>
-                                    <a href={code} className='hover:bg-gradient-to-r  hover:from-yellow-800 hover:to-yellow-400   text-white font-bold py-2 px-4 rounded-md bg-black'>Code</a>
+                                <div className=' flex-col sm:flex-row gap-2 flex sm:items-center  justify-between px-4 py-2'>
+                                    <a href={demo} className={`border   text-white font-bold py-2 px-4 rounded-md border-yellow-500 hover:bg-yellow-500 bg-yellow-500 hover:text-black text-center`}>Check Demo</a>
+                                    <a href={code} className='border-yellow-500 border hover:bg-yellow-500 hover:text-black  text-white font-bold py-2 px-4 rounded-md bg-black text-center'>Source Code</a>
                                 </div>
                             </motion.div>
                         );

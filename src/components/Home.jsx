@@ -8,7 +8,7 @@ const Home = () => {
     <div
       name="home"
       id="home"
-      className="min-h-screen max-h-full w-full bg-gradient-to-b from-black via-black to-gray-800 text-white"
+      className="min-h-screen max-h-full w-full bg-black text-white"
     >
       <div className="py-32 max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
@@ -33,7 +33,7 @@ const Home = () => {
           initial={{ opacity: 0, y: -40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
-           className="text-gray-500 py-4 max-w-md">
+           className="text-gray-400 py-4 max-w-md">
             I'm passionate about blending technology with creativity, always
             seeking new challenges to grow and develop my skills.
           </motion.p>
