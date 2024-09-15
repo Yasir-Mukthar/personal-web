@@ -20,7 +20,7 @@ function Portfolio() {
     {
       id: 2,
       src: pn,
-      name: "ProtertyNama",
+      name: "PropertyNama",
       description:
         "Developed a feature-rich PropertyNama website using Next.js, MongoDB, and NextAuth. The platform includes user-friendly login and registration options, along with profile update functionality. Users can easily upload, edit, and delete properties, while the robust search feature allows them to find properties quickly.",
       demo: "https://www.youtube.com/watch?v=bBhDanA7nqI",
