@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="text-center">
         <span className="font-semibold">
           Created By{' '}
-          <a href="htt" rel="noreferrer" className="text-yellow-500 font-bold">
+          <a href="/" rel="noreferrer" className="text-yellow-500 font-bold">
             YASIR MUKHTAR
           </a>{' '}
           |{' '}

@@ -87,7 +87,7 @@ return (
                         return (
                             <motion.div key={id} className={` border-dashed border-2  shadow-md hover:scale-105 duration-500 py-4 rounded-lg ${style}`} initial={{ opacity: 0,y:-20 }} whileInView={{ opacity: 1,y:0 }} transition={{duration:0.5, delay:0.1*id}} exit={{ opacity: 0 }}>
                                 <motion.img className='w-10 sm:w-20 mx-auto' src={src} alt="Programming Images" />
-                                <motion.p className='mt-4 font-bold'>{title}</motion.p>
+                                <motion.p className='mt-4 font-bold text-sm sm:text-lg'>{title}</motion.p>
                             </motion.div>
                         )
                     })
